@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Interactive Navigation Menu</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Navigation Menu -->
+    <nav class="navbar" id="navbar">
+        <div class="nav-container">
+            <div class="nav-logo">
+                <a href="#home">Ishika Vyas</a>
+            </div>
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#home" class="nav-link">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#about" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#services" class="nav-link">Tasks</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#portfolio" class="nav-link">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contact" class="nav-link">Contact</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <!-- Page Content -->
+    <main>
+        <section id="home" class="section">
+            <div class="section-content">
+                <h1>Home</h1>
+                <p>Welcome to the my Internship project page!</p>
+        </section>
+
+        <section id="about" class="section">
+            <div class="section-content">
+                <h2>About Us</h2>
+                <p>This page showcases my web development projects developed during my internship </p>
+            </div>
+        </section>
+
+        <section id="services" class="section">
+            <div class="section-content">
+                <h2>Internship Tasks</h2>
+                <p>Worked upon the following tasks:</p>
+                <ul>
+                    <li>Interactive Navigation Menu </li>
+                    <li>Stopwatch web application </li>
+                    <li> Interactive quiz game</li>
+                    <li>Task management web application</li>
+                </ul>
+            </div>
+        </section>
+
+        <section id="portfolio" class="section">
+            <div class="section-content">
+                <h2>Portfolio</h2>
+                <p>Check out some of our recent projects:</p>
+                <div class="portfolio-grid">
+                    <a href="https://github.com/Ishika436/SCT_WD_1" target="_blank" class="portfolio-item">Project 1</a>
+                    <a href="https://github.com/Ishika436/SCT_WD_2" target="_blank" class="portfolio-item">Project 2</a>
+                    <a href="https://github.com/Ishika436/SCT_WD_3" target="_blank" class="portfolio-item">Project 3</a>
+                    <a href="https://github.com/Ishika436/SCT_WD_4" target="_blank" class="portfolio-item">Project 4</a>
+                </div>
+            </div>
+        </section>
+
+        <section id="contact" class="section">
+            <div class="section-content">
+                <h2>Contact Me</h2>
+                <p>Get in touch with me for more information about my internship project.</p>
+                <form class="contact-form">
+                    <input type="text" placeholder="Your Name" required>
+                    <input type="email" placeholder="Your Email" required>
+                    <textarea placeholder="Your Message" rows="5" required></textarea>
+                    <button type="submit">Send Message</button>
+                </form>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
